@@ -1,0 +1,17 @@
+{
+  "name": "omniscience",
+  "version": "0.1.0",
+  "description": "Project OMNISCIENCE — A Universal Scientific Simulation Engine",
+  "type": "module",
+  "main": "src/core/index.js",
+  "scripts": {
+    "test": "node --experimental-vm-modules node_modules/.bin/jest 2>/dev/null || node tests/run.mjs",
+    "demo": "node demo/run.mjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Kilo-Org/omniscience.git"
+  },
+  "keywords": ["simulation", "science", "engine", "mechanics", "fluids", "chemistry", "cellular-automata", "ecosystem"],
+  "license": "MIT"
+}
